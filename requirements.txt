@@ -1,0 +1,17 @@
+# Core (the notebook was run on Kaggle: Python 3.12, Tesla T4 GPU)
+torch>=2.0
+torchvision>=0.15        # VGG19 with models.VGG19_Weights
+numpy
+pandas
+matplotlib
+pillow
+scikit-learn             # train / validation / test split
+scipy                    # Gaussian smoothing of the attention maps
+nltk                     # BLEU, METEOR, POS tagging (punkt, wordnet, tagger data are downloaded by the notebook)
+tqdm
+jupyter
+
+# Error analysis (optional: the notebook skips these if they are missing)
+transformers             # GPT-2 caption scoring
+spacy                    # dependency parsing; also run: python -m spacy download en_core_web_sm
+# ultralytics            # YOLO object detection (planned, skipped in our run)

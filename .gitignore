@@ -1,0 +1,8 @@
+# Model checkpoints (too large for GitHub; retrain with the notebook)
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
